@@ -1,5 +1,8 @@
 # 目录
 
+## [Android](https://github.com/adamearthhuang/blog/labels/Android)
+* [SUM 与 GROUP BY 的一些坑](https://github.com/adamearthhuang/blog/issues/3)
+
 ## [SQL](https://github.com/adamearthhuang/blog/labels/SQL)
 * [SUM 与 GROUP BY 的一些坑](https://github.com/adamearthhuang/blog/issues/2)
 
