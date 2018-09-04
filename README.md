@@ -8,4 +8,4 @@
 
 ## [Web](https://github.com/adamearthhuang/blog/labels/Web)
 * [防止 Cookie 失效的解决方案](https://github.com/adamearthhuang/blog/issues/1)
-* [前端工程化的实践](https://github.com/adamearthhuang/blog/issues/4)
+* [前端工程化的最佳实践](https://github.com/adamearthhuang/blog/issues/4)
