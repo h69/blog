@@ -6,6 +6,7 @@
 
 ## [MySQL](https://github.com/adamearthhuang/blog/labels/MySQL)
 * [SUM 与 GROUP BY 的一些坑](https://github.com/adamearthhuang/blog/issues/2)
+* [存储引擎](https://github.com/adamearthhuang/blog/issues/16)
 
 ## [Node.js](https://github.com/adamearthhuang/blog/labels/Node.js)
 * [基础架构](https://github.com/adamearthhuang/blog/issues/14)
