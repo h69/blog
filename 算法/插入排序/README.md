@@ -7,9 +7,9 @@ public void sort(int a[], int n) {
   for (int i = 0; i < n; i++) {
     int t = a[i];
 
-	for (int j = i; j > 0 && t < a[j - 1]; j--) {
-	  a[j] = a[j - 1];
-	} 
+    for (int j = i; j > 0 && t < a[j - 1]; j--) {
+      a[j] = a[j - 1];
+    } 
 		
     a[j] = t;
   }

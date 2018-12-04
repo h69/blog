@@ -8,13 +8,13 @@ public void sort(int a[], int n) {
     boolean sorted = true;
       
     for (int j = 0; j < n - 1 - i; j++) {
-        if (a[j] > a[j + 1]) {
-            int t = a[j];
-            a[j] = a[j + 1];
-            a[j + 1] = t;
-            
-            sorted = false;
-        }
+      if (a[j] > a[j + 1]) {
+        int t = a[j];
+        a[j] = a[j + 1];
+        a[j + 1] = t;
+        
+        sorted = false;
+      }
     }
 
     if (sorted) break;

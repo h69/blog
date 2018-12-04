@@ -13,5 +13,8 @@
 * [前端工程化的最佳实践](https://github.com/adamearthhuang/blog/issues/4)
 * [防止 Cookie 失效的解决方案](https://github.com/adamearthhuang/blog/issues/1)
 
+## [算法](https://github.com/adamearthhuang/blog/labels/算法)
+* [HTTP](https://github.com/adamearthhuang/blog/issues/5)
+
 ## [计算机网络](https://github.com/adamearthhuang/blog/labels/计算机网络)
 * [HTTP](https://github.com/adamearthhuang/blog/issues/5)

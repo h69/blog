@@ -9,12 +9,12 @@ public void sort(int a[], int l, int r) {
 		
 		while (i < j) {
 			while (i < j && a[j] >= t) {
-			    j--;
+			  j--;
 			}
 	
 			if (i < j) {
-			    a[i] = a[j];
-			    i++;
+			  a[i] = a[j];
+			  i++;
 			}
 			
 			while(i < j && a[i] <= t) {
@@ -29,7 +29,7 @@ public void sort(int a[], int l, int r) {
 		
 		a[i] = t;
 		
-        sort(a, l, i - 1);
+    sort(a, l, i - 1);
 		sort(a, i + 1, r);
 	}
 }
