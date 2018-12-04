@@ -2,6 +2,7 @@
 
 ## [Android](https://github.com/adamearthhuang/blog/labels/Android)
 * [dp 与 px 之间的转换](https://github.com/adamearthhuang/blog/issues/3)
+* [缓存算法](https://github.com/adamearthhuang/blog/issues/13)
 
 ## [Node.js](https://github.com/adamearthhuang/blog/labels/Node.js)
 * [常用模块](https://github.com/adamearthhuang/blog/issues/6)
