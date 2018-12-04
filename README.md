@@ -4,12 +4,12 @@
 * [dp 与 px 之间的转换](https://github.com/adamearthhuang/blog/issues/3)
 * [缓存算法](https://github.com/adamearthhuang/blog/issues/13)
 
+## [MySQL](https://github.com/adamearthhuang/blog/labels/MySQL)
+* [SUM 与 GROUP BY 的一些坑](https://github.com/adamearthhuang/blog/issues/2)
+
 ## [Node.js](https://github.com/adamearthhuang/blog/labels/Node.js)
 * [基础架构](https://github.com/adamearthhuang/blog/issues/14)
 * [常用模块](https://github.com/adamearthhuang/blog/issues/6)
-
-## [SQL](https://github.com/adamearthhuang/blog/labels/SQL)
-* [SUM 与 GROUP BY 的一些坑](https://github.com/adamearthhuang/blog/issues/2)
 
 ## [Web](https://github.com/adamearthhuang/blog/labels/Web)
 * [前端工程化的最佳实践](https://github.com/adamearthhuang/blog/issues/4)
