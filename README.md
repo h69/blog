@@ -18,6 +18,7 @@
 * [快速排序](https://github.com/adamearthhuang/blog/issues/8)
 * [插入排序](https://github.com/adamearthhuang/blog/issues/9)
 * [选择排序](https://github.com/adamearthhuang/blog/issues/10)
+* [二分查找法](https://github.com/adamearthhuang/blog/issues/11)
 
 ## [计算机网络](https://github.com/adamearthhuang/blog/labels/计算机网络)
 * [HTTP](https://github.com/adamearthhuang/blog/issues/5)
