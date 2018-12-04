@@ -5,6 +5,7 @@
 * [缓存算法](https://github.com/adamearthhuang/blog/issues/13)
 
 ## [Node.js](https://github.com/adamearthhuang/blog/labels/Node.js)
+* [基础架构](https://github.com/adamearthhuang/blog/issues/14)
 * [常用模块](https://github.com/adamearthhuang/blog/issues/6)
 
 ## [SQL](https://github.com/adamearthhuang/blog/labels/SQL)
