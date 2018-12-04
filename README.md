@@ -20,5 +20,5 @@
 * [选择排序](https://github.com/adamearthhuang/blog/issues/10)
 * [二分查找法](https://github.com/adamearthhuang/blog/issues/11)
 
-## [计算机网络](https://github.com/adamearthhuang/blog/labels/计算机网络)
+## [网络](https://github.com/adamearthhuang/blog/labels/网络)
 * [HTTP](https://github.com/adamearthhuang/blog/issues/5)
