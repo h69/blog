@@ -14,11 +14,12 @@
 * [防止 Cookie 失效的解决方案](https://github.com/adamearthhuang/blog/issues/1)
 
 ## [算法](https://github.com/adamearthhuang/blog/labels/算法)
+* [二分查找法](https://github.com/adamearthhuang/blog/issues/11)
 * [冒泡排序](https://github.com/adamearthhuang/blog/issues/7)
 * [快速排序](https://github.com/adamearthhuang/blog/issues/8)
 * [插入排序](https://github.com/adamearthhuang/blog/issues/9)
 * [选择排序](https://github.com/adamearthhuang/blog/issues/10)
-* [二分查找法](https://github.com/adamearthhuang/blog/issues/11)
+
 
 ## [网络](https://github.com/adamearthhuang/blog/labels/网络)
 * [HTTP](https://github.com/adamearthhuang/blog/issues/5)
