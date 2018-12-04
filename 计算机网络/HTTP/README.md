@@ -64,10 +64,10 @@ name=adam&sex=man&age=25
 
 >**RESTful**
 >
->/user POST 新增用户 
-/user GET 查询用户   
-/user PUT 修改用户  
-/user DELETE 删除用户  
+>/user POST 新增用户   
+/user GET 查询用户    
+/user PUT 修改用户    
+/user DELETE 删除用户    
 
 >**CRUD**  
 >
