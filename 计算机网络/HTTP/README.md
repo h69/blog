@@ -15,26 +15,26 @@
 HTTP（**H**yper**T**ext **T**ransfer **P**rotocol ，超文本传输协议），这是互联网上应用最为广泛的一种网络协议，设计 HTTP 最初的目的是为了提供一种发布和接收 HTML 页面的方法，当然，它现在已经不再局限于用于 HTML 的传输，而是可以运用在任何需要它传输你想传输数据的场景中。
 
 ### # 网络分层模型
-![网络分层模型](https://images2015.cnblogs.com/blog/705728/201604/705728-20160424234827195-1493107425.png)
+![网络分层模型](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/1.png)
 
 ### # 报文封装过程
-![报文封装过程](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533220085594&di=07a9defa6de5caec1649d6debdcd7bc2&imgtype=0&src=http%3A%2F%2Fhi.csdn.net%2Fattachment%2F201103%2F28%2F0_1301324938r95q.gif)
+![报文封装过程](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/2.png)
 
 ### # TCP 的连接过程
-![TCP的三次握手](https://images2017.cnblogs.com/blog/985821/201708/985821-20170802101806802-1497343688.png)
+![TCP的三次握手](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/3.png)
 
-![TCP的四次挥手](https://images2017.cnblogs.com/blog/985821/201708/985821-20170802101823505-1177747613.png)
+![TCP的四次挥手](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/4.png)
 
 ### # HTTPS 的简单介绍
-![HTTPS](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533222090249&di=59ac747266aeb6c1c8b8acab2fcaf7a7&imgtype=0&src=http%3A%2F%2Fg.itunes123.com%2Fuploadfiles%2F5399a4f70b737646d3070442251d80e5.jpg)
+![HTTPS](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/5.png)
 
-![HTTPS的连接过程](https://images2015.cnblogs.com/blog/555379/201602/555379-20160210231313448-2027205313.png)
+![HTTPS的连接过程](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/6.png)
 
 ## HTTP 的具体协议
 
 ### # 请求报文
 
-![请求报文](https://images2015.cnblogs.com/blog/731768/201508/731768-20150826162823328-1815927270.png)
+![请求报文](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/7.png)
 ```
 POST /index.html HTTP/1.1
 Host: www.qq.com
@@ -42,7 +42,7 @@ Connection: keep-alive
 Accept-Encoding: gzip, deflate, sdch
 Accept-Language: zh-CN,zh;q=0.8
 
-name=apexhuang&sex=man&age=25
+name=adam&sex=man&age=25
 ```
 
 #### $ 方法
@@ -64,8 +64,8 @@ name=apexhuang&sex=man&age=25
 
 >**RESTful**
 >
->/user GET 查询用户   
-/user POST 新增用户   
+>/user POST 新增用户 
+/user GET 查询用户   
 /user PUT 修改用户  
 /user DELETE 删除用户  
 
@@ -89,13 +89,13 @@ http://www.qq.com:80/index.html
 * HTTP/2.0：非常少，下一代，多路复用（请求并行，响应并行）。
 
 ##### HTTP/0.9 与 HTTP/1.0：
-![HTTP/0.9 与 HTTP/1.0](https://pic4.zhimg.com/80/v2-755722cfb502cebbe639bc311270eb47_hd.png)
+![HTTP/0.9 与 HTTP/1.0](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/8.png)
 
 ##### HTTP/1.0 与 HTTP/1.1：
-![HTTP/1.0 与 HTTP/1.1](https://pic2.zhimg.com/80/v2-d254b4a421391fc3c2178ffbc0b023a1_hd.png)
+![HTTP/1.0 与 HTTP/1.1](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/9.png)
 
 ##### HTTP/1.1 与 HTTP/2.0：
-![HTTP/1.1 与 HTTP/2.0](https://pic1.zhimg.com/80/v2-b99ceeeb044581939a9964b5d3ce1a88_hd.png)
+![HTTP/1.1 与 HTTP/2.0](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/10.png)
 
 
 #### $ 首部
@@ -119,7 +119,7 @@ http://www.qq.com:80/index.html
 
 ### # 响应报文
 
-![响应报文](https://images0.cnblogs.com/blog2015/731768/201508/261733528591876.png)
+![响应报文](https://raw.githubusercontent.com/adamearthhuang/blog/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/11.png)
 
 ```
 HTTP/1.1 200 OK
@@ -133,7 +133,7 @@ Set-Cookie: JSESSIONID=84C993F5E433;path=/;HttpOnly
 ```
 
 #### $ 版本
-同请求行。
+同请求报文。
 
 #### $ 状态码
 * 1xx：信息类。
@@ -163,10 +163,10 @@ Set-Cookie: JSESSIONID=84C993F5E433;path=/;HttpOnly
 * ...
 
 #### $ 空行
-同请求行。
+同请求报文。
 
 #### $ 实体
-同请求行。
+同请求报文。
 
 ## HTTP 的调试方法
 在开发中，如果是一个基于 HTTP 协议通信的应用，那么常常需要对 HTTP 请求进行调试，比如你可能需要查看这个请求的返回结果是否符合预期。
