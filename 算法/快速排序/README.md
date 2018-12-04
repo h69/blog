@@ -4,33 +4,33 @@
 
 ```java
 public void sort(int a[], int l, int r) {
-	if (l < r) {
-		int i = l, j = r, t = a[i];
-		
-		while (i < j) {
-			while (i < j && a[j] >= t) {
-			  j--;
-			}
-	
-			if (i < j) {
-			  a[i] = a[j];
-			  i++;
-			}
-			
-			while(i < j && a[i] <= t) {
-				i++;
-			}
-			
-			if (i < j) {
-				a[j] = a[i];
-				j--;
-			}
-		}
-		
-		a[i] = t;
-		
+  if (l < r) {
+    int i = l, j = r, t = a[i];
+  
+    while (i < j) {
+      while (i < j && a[j] >= t) {
+        j--;
+      }
+
+      if (i < j) {
+        a[i] = a[j];
+        i++;
+      }
+    
+      while(i < j && a[i] <= t) {
+        i++;
+      }
+    
+      if (i < j) {
+        a[j] = a[i];
+        j--;
+      }
+    }
+  
+    a[i] = t;
+  
     sort(a, l, i - 1);
-		sort(a, i + 1, r);
-	}
+    sort(a, i + 1, r);
+  }
 }
 ```
