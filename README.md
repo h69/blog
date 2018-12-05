@@ -17,6 +17,7 @@
 * [防止 Cookie 失效的解决方案](https://github.com/adamearthhuang/blog/issues/1)
 
 ## [操作系统](https://github.com/adamearthhuang/blog/labels/操作系统)
+* [并发与并行](https://github.com/adamearthhuang/blog/issues/18)
 * [线程与进程](https://github.com/adamearthhuang/blog/issues/17)
 
 ## [算法](https://github.com/adamearthhuang/blog/labels/算法)
