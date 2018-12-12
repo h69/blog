@@ -20,6 +20,9 @@
 * [并发与并行](https://github.com/adamearthhuang/blog/issues/18)
 * [线程与进程](https://github.com/adamearthhuang/blog/issues/17)
 
+## [数据库](https://github.com/adamearthhuang/blog/labels/数据库)
+* [ACID](https://github.com/adamearthhuang/blog/issues/19)
+
 ## [算法](https://github.com/adamearthhuang/blog/labels/算法)
 * [二分查找法](https://github.com/adamearthhuang/blog/issues/11)
 * [冒泡排序](https://github.com/adamearthhuang/blog/issues/7)
