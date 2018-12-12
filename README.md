@@ -22,6 +22,7 @@
 
 ## [数据库](https://github.com/adamearthhuang/blog/labels/数据库)
 * [ACID](https://github.com/adamearthhuang/blog/issues/19)
+* [关系型数据库范式](https://github.com/adamearthhuang/blog/issues/20)
 
 ## [算法](https://github.com/adamearthhuang/blog/labels/算法)
 * [二分查找法](https://github.com/adamearthhuang/blog/issues/11)
