@@ -4,7 +4,7 @@
 HTTP（**H**yper**T**ext **T**ransfer **P**rotocol ，超文本传输协议），这是互联网上应用最为广泛的一种网络协议，设计 HTTP 最初的目的是为了提供一种发布和接收 HTML 页面的方法，当然，它现在已经不再局限于用于 HTML 的传输，而是可以运用在任何需要它传输你想传输数据的场景中。
 
 ### # 网络分层模型
-![网络分层模型](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/01.png)
+![网络分层模型](./01.png)
 
 ### # 报文封装过程
 ![报文封装过程](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/02.png)
