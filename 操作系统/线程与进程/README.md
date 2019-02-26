@@ -23,7 +23,7 @@
 * 套接字（socket）
 
 ## 线程的生命周期
-![线程的生命周期](https://raw.githubusercontent.com/adamearthhuang/blog/master/操作系统/线程与进程/01.png)
+![线程的生命周期](./01.png)
 
 ## 多线程与多进程
 | 维度             | 多线程                      | 多进程                 | 优势   |

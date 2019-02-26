@@ -7,23 +7,23 @@ HTTP（**H**yper**T**ext **T**ransfer **P**rotocol ，超文本传输协议）�
 ![网络分层模型](./01.png)
 
 ### # 报文封装过程
-![报文封装过程](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/02.png)
+![报文封装过程](./02.png)
 
 ### # TCP 的连接过程
-![TCP的三次握手](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/03.png)
+![TCP的三次握手](./03.png)
 
-![TCP的四次挥手](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/04.png)
+![TCP的四次挥手](./04.png)
 
 ### # HTTPS 的简单介绍
-![HTTPS](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/05.png)
+![HTTPS](./05.png)
 
-![HTTPS的连接过程](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/06.png)
+![HTTPS的连接过程](./06.png)
 
 ## HTTP 的具体协议
 
 ### # 请求报文
 
-![请求报文](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/07.png)
+![请求报文](./07.png)
 ```
 POST /index.html HTTP/1.1
 Host: www.qq.com
@@ -78,13 +78,13 @@ http://www.qq.com:80/index.html
 * HTTP/2.0：非常少，下一代，多路复用（请求并行，响应并行）。
 
 ##### HTTP/0.9 与 HTTP/1.0：
-![HTTP/0.9 与 HTTP/1.0](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/08.png)
+![HTTP/0.9 与 HTTP/1.0](./08.png)
 
 ##### HTTP/1.0 与 HTTP/1.1：
-![HTTP/1.0 与 HTTP/1.1](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/09.png)
+![HTTP/1.0 与 HTTP/1.1](./09.png)
 
 ##### HTTP/1.1 与 HTTP/2.0：
-![HTTP/1.1 与 HTTP/2.0](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/10.png)
+![HTTP/1.1 与 HTTP/2.0](./10.png)
 
 
 #### $ 首部
@@ -108,7 +108,7 @@ http://www.qq.com:80/index.html
 
 ### # 响应报文
 
-![响应报文](https://raw.githubusercontent.com/adamearthhuang/blog/master/网络/HTTP/11.png)
+![响应报文](./11.png)
 
 ```
 HTTP/1.1 200 OK
