@@ -20,7 +20,7 @@
 | 1            | 1          | 小明   | 一年级   | 1班     | 100.00 |
 
 ## 第二范式
-在第一范式基础上，消除部分函数依赖，只存在完全函数依赖。
+在第一范式基础上，消除部分函数依赖（只存在完全函数依赖）。
 
 ### # 样例
 | f_student_id | f_card_id  | f_name | f_grade | f_class | f_card |
@@ -53,7 +53,7 @@
 | 1            | 小明   | 一年级   | 1班     |
 
 ### # 分析
-`f_card` 依赖于 `f_card_id`，而 `f_card_id` 又依赖于 `f_student_id`
+`f_card` 依赖于 `f_card_id`，而 `f_card_id` 又依赖于 `f_student_id`。
 
 ### # 优化
 | f_student_id | f_card_id |
