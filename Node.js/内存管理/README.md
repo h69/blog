@@ -7,7 +7,7 @@
 Node.js 程序在运行时所占用的内存称为**常驻内存**（Resident Set）。
 
 常驻内存由以下部分组成：
-- 代码区（Code Segment）：即将执行的代码片段。
+- 代码区（Code Segment）：程序代码。
 - 栈（Stack）：局部变量。
 - 堆（Heap）：对象、闭包上下文。
 - 堆外内存：Buffer 数据。
