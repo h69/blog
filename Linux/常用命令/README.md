@@ -36,5 +36,5 @@ telnet [host [post]] # telent 127.0.0.1 23
 下载文件。
 
 ## |
-管道符号，比如 command 1 | command 2，它的功能可以把第一个命令 command 1 执行的结果作为 command 2 的输入。
+管道符号，比如 `command1` | `command2`，它可以把 `command1` 的输出作为 `command2` 的输入。
 
