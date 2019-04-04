@@ -21,14 +21,15 @@
 ## ssh
 连接远程主机（密文，默认端口号 `22`）。
 
-```bash
-ssh user@host
+```sh
+ssh [user@]<host> # ssh root@127.0.0.1
 ```
+
 ## telnet
 连接远程主机（明文，默认端口号 `23`）。
 
-```bash
-telnet host post
+```sh
+telnet [host [post]] # telent 127.0.0.1 23
 ```
 
 ## wget
