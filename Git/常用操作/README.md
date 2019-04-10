@@ -29,3 +29,8 @@ git checkout -b <branch> <repository>/<remote_branch> # git checkout -b dev orig
 ```sh
 git branch -D <branch> # git branch -D dev
 ```
+
+## 更名本地分支
+```sh
+git branch -m <old_branch> <new_branch> # git branch -m dev1 dev2
+```
