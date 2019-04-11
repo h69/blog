@@ -83,6 +83,7 @@
     removeEventListener(ul, 'click', onEventListener);
   </script>
 </body>
+</html>
 ```
 
 
