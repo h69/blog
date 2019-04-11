@@ -5,8 +5,12 @@
 - 事件
 - 事件处理程序
 
-```JavaScript
+```javascript
 事件源.事件 = function () { 事件处理程序 }
+```
+
+```javascript
+事件源.addEventListener(事件, function () { 事件处理程序 });
 ```
 
 ## 事件绑定
