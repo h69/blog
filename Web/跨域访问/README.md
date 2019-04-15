@@ -7,7 +7,7 @@
 ### # CORS（跨域资源共享）
 服务端在 HTTP 请求的响应头部设置 `Access-Control-Allow-Origin` 字段。
 
-### # 网络代理
+### # 代理
 服务端实现一个代理服务器进行请求转发。
 
 ### # JSONP
