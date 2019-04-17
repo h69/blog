@@ -66,7 +66,7 @@ Update -> PUT
 DELETE - > DELETE
 
 #### $ URL（Uniform Resource Locator，统一资源定位符）
-协议 : // 域名 : 端口 / 路径
+协议://域名:端口/路径
 
 ```
 http://www.qq.com:80/index.html
