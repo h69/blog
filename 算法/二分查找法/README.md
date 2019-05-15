@@ -17,7 +17,9 @@ public int search(int a[], int x, int l, int r) {
     return search(a, x, m + 1, r);
   }
 }
+```
 
+```java
 // 递推法
 public int search(int a[], int x, int l, int r) {
   while (l <= r) {
