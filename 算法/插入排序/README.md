@@ -9,8 +9,8 @@ public void sort(int a[], int n) {
 
     for (int j = i; j > 0 && t < a[j - 1]; j--) {
       a[j] = a[j - 1];
-    } 
-		
+    }
+
     a[j] = t;
   }
 }
