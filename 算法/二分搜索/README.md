@@ -2,9 +2,14 @@
 
 也叫做二分查找，要求元素已是有序排列。
 
-```java
-// 递归法
-public int search(int a[], int x, int l, int r) {
+## 递归
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int search(int a[], int x, int l, int r) {
   if (l > r) return -1;
 
   int m = (l + r) / 2;
@@ -17,11 +22,24 @@ public int search(int a[], int x, int l, int r) {
     return search(a, x, m + 1, r);
   }
 }
+
+int main() {
+  int a[] = {1, 2, 3, 4, 5};
+
+  int result = search(a, 4, 0, 5);
+
+  cout << result << endl;
+}
 ```
 
-```java
-// 递推法
-public int search(int a[], int x, int l, int r) {
+## 递推
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int search(int a[], int x, int l, int r) {
   while (l <= r) {
     int m = (l + r) / 2;
 
@@ -35,5 +53,13 @@ public int search(int a[], int x, int l, int r) {
   }
 
   return -1;
+}
+
+int main() {
+  int a[] = {1, 2, 3, 4, 5};
+
+  int result = search(a, 4, 0, 5);
+
+  cout << result << endl;
 }
 ```
