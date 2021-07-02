@@ -2,7 +2,7 @@
 
 每一趟将一个待排序的元素，插入到前面已经排好序的有序序列中去，直到所有元素排完为止。
 
-```c++
+```cpp
 #include <iostream>
 
 using namespace std;
