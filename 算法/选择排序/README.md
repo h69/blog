@@ -2,7 +2,7 @@
 
 每一趟从待排序的数据元素中选择最小（或最大）的一个元素与首元素进行交换，直到所有元素排完为止。
 
-```c++
+```cpp
 #include <iostream>
 
 using namespace std;

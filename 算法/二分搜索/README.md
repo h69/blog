@@ -4,7 +4,7 @@
 
 ## 递归
 
-```c++
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -34,7 +34,7 @@ int main() {
 
 ## 递推
 
-```c++
+```cpp
 #include <iostream>
 
 using namespace std;
