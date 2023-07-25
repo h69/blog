@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>堆排序 |  </title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <script type="text/javascript" src="/assets/js/push.js"></script>
+    <script type="text/javascript" src="/assets/js/hm.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&amp;display=swap">
+    <meta name="description" content="">
+    <meta name="baidu-site-verification" content="code-FacPXl4enQ">
+    
+    <link rel="preload" href="/assets/css/0.styles.4ce1ea91.css" as="style"><link rel="preload" href="/assets/js/app.b966f73a.js" as="script"><link rel="preload" href="/assets/js/2.1cd0f1d8.js" as="script"><link rel="preload" href="/assets/js/43.ab202d92.js" as="script"><link rel="prefetch" href="/assets/js/10.b6c81892.js"><link rel="prefetch" href="/assets/js/11.9a24a23c.js"><link rel="prefetch" href="/assets/js/12.9f09c34d.js"><link rel="prefetch" href="/assets/js/13.1256f673.js"><link rel="prefetch" href="/assets/js/14.a3d8dd91.js"><link rel="prefetch" href="/assets/js/15.77b139cf.js"><link rel="prefetch" href="/assets/js/16.7128090d.js"><link rel="prefetch" href="/assets/js/17.752e231f.js"><link rel="prefetch" href="/assets/js/18.4fde50c9.js"><link rel="prefetch" href="/assets/js/19.50ce8b88.js"><link rel="prefetch" href="/assets/js/20.53e3dead.js"><link rel="prefetch" href="/assets/js/21.72c1232d.js"><link rel="prefetch" href="/assets/js/22.249a9fb1.js"><link rel="prefetch" href="/assets/js/23.e6dc8d73.js"><link rel="prefetch" href="/assets/js/24.a83e2faf.js"><link rel="prefetch" href="/assets/js/25.1d843f38.js"><link rel="prefetch" href="/assets/js/26.bfc48946.js"><link rel="prefetch" href="/assets/js/27.ec6e619e.js"><link rel="prefetch" href="/assets/js/28.9163e697.js"><link rel="prefetch" href="/assets/js/29.77167100.js"><link rel="prefetch" href="/assets/js/3.b388f3c2.js"><link rel="prefetch" href="/assets/js/30.ce305947.js"><link rel="prefetch" href="/assets/js/31.340081ed.js"><link rel="prefetch" href="/assets/js/32.cd2c9c5f.js"><link rel="prefetch" href="/assets/js/33.ff537183.js"><link rel="prefetch" href="/assets/js/34.7cb10ee6.js"><link rel="prefetch" href="/assets/js/35.e7966efe.js"><link rel="prefetch" href="/assets/js/36.f3b10844.js"><link rel="prefetch" href="/assets/js/37.1be58862.js"><link rel="prefetch" href="/assets/js/38.3723952c.js"><link rel="prefetch" href="/assets/js/39.94a9a509.js"><link rel="prefetch" href="/assets/js/4.e11dd73a.js"><link rel="prefetch" href="/assets/js/40.a869954c.js"><link rel="prefetch" href="/assets/js/41.5bd01a2f.js"><link rel="prefetch" href="/assets/js/42.0884960e.js"><link rel="prefetch" href="/assets/js/44.4ec8c2a8.js"><link rel="prefetch" href="/assets/js/45.554e3ccc.js"><link rel="prefetch" href="/assets/js/46.deea6659.js"><link rel="prefetch" href="/assets/js/47.8e806b69.js"><link rel="prefetch" href="/assets/js/48.eef238a6.js"><link rel="prefetch" href="/assets/js/49.70cdd616.js"><link rel="prefetch" href="/assets/js/5.9b257ba7.js"><link rel="prefetch" href="/assets/js/50.55cc3059.js"><link rel="prefetch" href="/assets/js/51.41f823a6.js"><link rel="prefetch" href="/assets/js/52.2ccd99ea.js"><link rel="prefetch" href="/assets/js/6.650d9dbd.js"><link rel="prefetch" href="/assets/js/7.336b4090.js"><link rel="prefetch" href="/assets/js/8.b168e103.js"><link rel="prefetch" href="/assets/js/9.c436485e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4ce1ea91.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div data-v-af323418><header class="header" data-v-69452f20 data-v-af323418><div class="title" data-v-69452f20> </div></header> <nav class="navs" data-v-38628940 data-v-af323418></nav> <div class="search-box" data-v-10b1314e data-v-af323418><input aria-label="Search" autocomplete="off" spellcheck="false" value="" data-v-10b1314e> <!----></div> <div class="tags" data-v-1272fba8 data-v-af323418><div class="tag" data-v-1272fba8><a data-v-1272fba8>Git</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>Java</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>JavaScript</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>Linux</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>MySQL</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>Node.js</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>Web</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>数据分析</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>操作系统</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>数据库</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>数据结构</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>机器学习</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>算法</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>爬虫</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>编程语言</a></div><div class="tag" data-v-1272fba8><a data-v-1272fba8>网络</a></div></div> <main data-v-af323418><div data-v-e4554dac data-v-af323418><!----> <div class="content__default" data-v-e4554dac><h1 id="堆排序"><a href="#堆排序" class="header-anchor">#</a> 堆排序</h1> <p>将待排序的序列构造成一个最大堆（最小堆），把堆顶元素与末尾元素进行交换，然后对剩余元素重复操作直到有序。</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Heap</span> <span class="token punctuation">{</span>
+
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>a <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">9</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token function">sort</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 堆排序</span>
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">sort</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token comment">// 将待排序的序列构造成一个最大堆</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> n <span class="token operator">/</span> <span class="token number">2</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">adjustHeap</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> i<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// 把堆顶元素与末尾元素进行交换，然后对剩余元素重复操作直到有序。</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> j <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">;</span> j<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">swap</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">adjustHeap</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 构建最大堆</span>
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">adjustHeap</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">int</span> i<span class="token punctuation">,</span> <span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> t <span class="token operator">=</span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> j <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+      <span class="token comment">// 如果左子结点小于右子结点，j指向右子结点</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>j <span class="token operator">+</span> <span class="token number">1</span> <span class="token operator">&lt;</span> n <span class="token operator">&amp;&amp;</span> a<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&lt;</span> a<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        j <span class="token operator">=</span> j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+
+      <span class="token comment">// 如果子结点大于父结点，将子结点的值赋值给父节点</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&gt;</span> t<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> a<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        i <span class="token operator">=</span> j<span class="token punctuation">;</span>
+
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> t<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 交换</span>
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">swap</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">int</span> i<span class="token punctuation">,</span> <span class="token keyword">int</span> j<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> t <span class="token operator">=</span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> a<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    a<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> t<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div></div></main> <footer data-v-81a5c08c data-v-af323418></footer></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.b966f73a.js" defer></script><script src="/assets/js/2.1cd0f1d8.js" defer></script><script src="/assets/js/43.ab202d92.js" defer></script>
+  </body>
+</html>
